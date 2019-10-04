@@ -15,7 +15,7 @@ class Cenik extends Component {
                   href="#nav-klasicka"
                   role="tab"
                   aria-controls="nav-klasicka"
-                  aria-selected="treu"
+                  aria-selected="true"
                 >
                   Klasická a rekondiční masáž
                 </a>
