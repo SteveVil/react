@@ -8,6 +8,8 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import ScrollBack from "./components/ScrollBack";
 
+import "./App.scss";
+
 class App extends Component {
   render() {
     return (
