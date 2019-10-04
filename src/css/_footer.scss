@@ -1,0 +1,23 @@
+//* Footer
+
+footer.footer {
+  // margin-top: 3rem;
+   padding-top: 30px;
+   padding-bottom: 30px;
+   background-color: #111111;
+   color:#CCCCCC;
+   ul {
+     margin: 0;
+     padding: 0;
+   }
+   li {
+     list-style-type: none;
+     display: inline;
+     margin-right: 12px;
+   }
+ 
+   a {
+     color: #CCCCCC;
+     
+   }
+ }
