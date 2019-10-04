@@ -1,25 +1,29 @@
-import React from "react";
-import "./App.css";
+import React, { Component } from "react";
+import Nav from "./components/Nav";
+import Masthead from "./components/Masthead";
+import AboutUs from "./components/AboutUs";
+import Services from "./components/Services";
+import Tips from "./components/Tips";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import ScrollBack from "./components/ScrollBack";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        
-        <p>
-          Edit <code>src/App.js</code>sdf sdxxxxxxxxxxxxxxxxxx
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <React.Fragment>
+        <Nav />
+
+        <Masthead />
+       <AboutUs />
+        <Services />
+        <Tips />
+        <Contact />
+        <Footer />
+        <ScrollBack />
+      </React.Fragment>
+    );
+  }
 }
 
 export default App;
