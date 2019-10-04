@@ -11,7 +11,7 @@ class AboutUs extends Component {
 
             
               <div className="col-12 col-md-6 p-n3">
-               <div className="img-div"><img src="img/about_2.jpg" alt="" className="img-fluid img float-right"/>
+               <div className="img-div"><img src="./img/about_2.jpg" alt="" className="img-fluid img float-right"/>
                </div>
               </div>
             
