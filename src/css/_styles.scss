@@ -1,20 +1,20 @@
 // Import custom variables (overrides Bootstrap default variables)
-@import "variables.scss";
+@import "_variables.scss";
 //@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,900&display=swap');
 $enable-responsive-font-sizes: true;
  
 // Import custom styles
-@import "bootstrap.scss";
+@import "_bootstrap.scss";
 
 // Import custom styles
- @import "global.scss";
- @import "masthead.scss";
- @import "navbar.scss";
- @import "about.scss";
- @import "leaders.scss";
- @import "footer.scss";
- @import "scroll-back.scss";
+ @import "_global.scss";
+ @import "_masthead.scss";
+ @import "_navbar.scss";
+ @import "_about.scss";
+ @import "_leaders.scss";
+ @import "_footer.scss";
+ @import "_scroll-back.scss";
 
 
 
