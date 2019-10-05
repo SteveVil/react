@@ -8,10 +8,22 @@ $enable-responsive-font-sizes: true;
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
 // Import custom styles
-@import "global";
-@import "masthead";
-@import "navbar";
-@import "about";
-@import "leaders";
-@import "footer";
-@import "scroll-back";
+//@import "global";
+//@import "masthead";
+//@import "navbar";
+//@import "about";
+//@import "leaders";
+//@import "footer";
+//@import "scroll-back";
+
+.btn-primary {
+  color: white;
+  background-color: #7fb843;
+  border-color: #7fb843;
+}
+
+.btn-primary:hover {
+  color: black !important;
+  background-color: white;
+  border-color: white;
+}

@@ -1,29 +1,28 @@
-@import "bootstrap";
-#about{
-  .img-div{
-   position: relative;
-   height: 100%;
-   margin-top: 60px;
-   padding-right: 60px;
-   &:before {
-      content:"";
-      position: absolute; 
-      top:-20px;
-      right:40px;
-      width:80%;
-      height:70%;
+#about {
+  .img-div {
+    position: relative;
+    height: 100%;
+    margin-top: 60px;
+    padding-right: 60px;
+    &:before {
+      content: "";
+      position: absolute;
+      top: -20px;
+      right: 40px;
+      width: 80%;
+      height: 70%;
       background-color: rgb(175, 173, 173);
-      z-index: -1; 
-   }
-   &:after {
-     content:"";
-     position: absolute; 
-     bottom:40px;
-     left:-20px;
-     width:80%;
-     height:70%;
-     background-color:$primary; 
-     z-index: -1; 
-  }
+      z-index: -1;
+    }
+    &:after {
+      content: "";
+      position: absolute;
+      bottom: 40px;
+      left: -20px;
+      width: 80%;
+      height: 70%;
+      background-color: $primary;
+      z-index: -1;
+    }
   }
 }
