@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Nav from "./components/Nav";
+import Menu from "./components/Menu";
 import Masthead from "./components/Masthead";
 import AboutUs from "./components/AboutUs";
 import Services from "./components/Services";
@@ -12,7 +12,7 @@ class App extends Component {
   render() {
     return (
       <React.Fragment>
-        <Nav />
+        <Menu />
 
         <Masthead />
         <AboutUs />

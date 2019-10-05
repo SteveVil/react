@@ -1,9 +1,17 @@
 // Base styling for the navbar
 #mainNav {
+  position: absolute;
   // box-shadow: $box-shadow;
   background-color: transparent;
   transition: background-color 0.2s ease;
+  .navbar-toggler {
+    border: none;
 
+    align-items: flex-end;
+    &:visited {
+      border: none;
+    }
+  }
   .navbar-brand {
     font-family: $font-family-sans-serif;
     font-weight: $font-weight-normal;
@@ -31,6 +39,10 @@
   }
   @include media-breakpoint-up(lg) {
     // Base styling for the navbar - screen sizes greater than the large breakpoint
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
     padding-top: 25px;
     box-shadow: none;
     background-color: transparent;
@@ -57,14 +69,14 @@
       }
     }
     // Navbar styling applied when the page is scrolled
-    &.navbar-scrolled {
-      // box-shadow: $box-shadow;
+    &.navbar-light {
+      box-shadow: $box-shadow;
       border-bottom: 1px solid #eee;
-      background-color: black;
+      background-color: rgba(225, 225, 225, 0.8);
       position: fixed;
       top: 0px;
       .navbar-brand {
-        color: $white;
+        color: #333333;
         &:hover {
           color: $primary;
         }
@@ -72,7 +84,7 @@
       .navbar-nav {
         .nav-item {
           .nav-link {
-            color: $white;
+            color: #333333;
             &:hover {
               color: $primary;
             }
