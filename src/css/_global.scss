@@ -54,3 +54,13 @@ hr.light {
   color: $primary;
   font-weight: bold;
 }
+
+.btn {
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #fff;
+  color: black;
+  border-color: white;
+}

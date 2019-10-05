@@ -50,7 +50,7 @@ class Nav extends Component {
             Remas
           </a>
           <button
-            className="navbar-toggler navbar-toggler-right"
+            className="navbar-toggler navbar-toggler-right text-white border-0"
             type="button"
             data-toggle="collapse"
             data-target="#navbarResponsive"
