@@ -1,17 +1,18 @@
 // Base styling for the navbar
 #mainNav {
-  position: absolute;
   // box-shadow: $box-shadow;
+
   background-color: transparent;
   transition: background-color 0.2s ease;
   .navbar-toggler {
+    color: white;
     border: none;
-
-    align-items: flex-end;
+    // align-items: flex-end;
     &:visited {
       border: none;
     }
   }
+
   .navbar-brand {
     font-family: $font-family-sans-serif;
     font-weight: $font-weight-normal;
@@ -43,6 +44,7 @@
     top: 0;
     right: 0;
     left: 0;
+    z-index: 1030;
     padding-top: 25px;
     box-shadow: none;
     background-color: transparent;
