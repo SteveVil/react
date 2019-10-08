@@ -12,12 +12,43 @@ class Tips extends Component {
                 <i className="fas fa-clipboard-check"></i>
               </div>
               <div className="col-12 col-md-6 bg-light p-4">
-                <p>
-                  Washing hair removes excess sweat and oil, as well as unwanted
-                  products from the hair and scalp. Often hair is washed as part
-                  of a shower or bathing with shampoo, a specialized surfactant.
-                  Shampoos work by applying water and shampoo to the hair.
-                </p>
+                <div className="bd-example">
+                  <div
+                    id="carouselExampleCaptions"
+                    className="carousel slide"
+                    data-ride="carousel"
+                  >
+                    <ol className="carousel-indicators">
+                      <li
+                        data-target="#carouselExampleCaptions"
+                        data-slide-to="0"
+                        className="active"
+                      ></li>
+                      <li
+                        data-target="#carouselExampleCaptions"
+                        data-slide-to="1"
+                      ></li>
+                      <li
+                        data-target="#carouselExampleCaptions"
+                        data-slide-to="2"
+                      ></li>
+                    </ol>
+                    <div className="carousel-inner">
+                      <div className="carousel-item active">
+                        <p>alskjdalksjdlaksjdla</p>
+                        <div className="carousel-caption d-none d-md-block"></div>
+                      </div>
+                      <div className="carousel-item">
+                        <p>kkkkkkkkkk</p>
+                        <div className="carousel-caption d-none d-md-block"></div>
+                      </div>
+                      <div className="carousel-item">
+                        <p>lsfjlsjfl skfls jlfsldfjs ldkfj</p>
+                        <div className="carousel-caption d-none d-md-block"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
