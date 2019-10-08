@@ -43,23 +43,23 @@ hr.light {
 
 // Ceník
 #cenik {
-.c3 {
-  color: $primary;
-  font-weight: bold;
-}
+  .c3 {
+    color: $primary;
+    font-weight: bold;
+  }
 
-.btn {
-  color: white;
-}
+  .btn {
+    color: white;
+  }
 
-.btn-primary:hover {
-  background-color: #fff;
-  color: black;
-  border-color: white;
-}
-a.nav-link {
-  font-weight: bold;
-}
+  .btn-primary:hover {
+    background-color: #fff;
+    color: black;
+    border-color: white;
+  }
+  a.nav-link {
+    font-weight: bold;
+  }
 }
 
 //services
@@ -70,15 +70,13 @@ a.nav-link {
   }
 }
 
-
 //Tips
 
 .fa-clipboard-check {
   position: relative;
-  bottom: 30px ;
+  bottom: 30px;
   opacity: 0.3;
   font-size: 60px;
-
 }
 
 @include media-breakpoint-up(lg) {

@@ -8,7 +8,7 @@ class AboutUs extends Component {
         <section className="page-section" id="about">
           <div className="container">
             <div className="row justify-content-center">
-              <div className="col-12 col-md-6">
+              <div className="col-12 col-md-6 animated" id="about-img">
                 <div className="img-div">
                   <img
                     src={about_2}

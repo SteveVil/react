@@ -11,3 +11,19 @@ $(function() {
     }
   });
 });
+
+$(window).scroll(function() {
+  if ($(this).scrollTop() > 500) {
+    $("#anim").addClass("slideInUp");
+  } else {
+    $("#anim").removeClass("slideInUp");
+  }
+});
+
+$(window).scroll(function() {
+  if ($(this).scrollTop() > 100) {
+    $("#about-img").addClass("fadeInLeft");
+  } else {
+    $("#about-img").removeClass("fadeInLeft");
+  }
+});

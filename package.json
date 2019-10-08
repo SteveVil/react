@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://stevevil.github.io/react",
   "dependencies": {
+    "animate.css": "^3.7.2",
     "bootstrap": "4.3.1",
     "classnames": "2.2.6",
     "gh-pages": "^2.1.1",

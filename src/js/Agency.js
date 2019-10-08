@@ -11,3 +11,11 @@ $(function() {
     }
   });
 });
+
+$(window).scroll(function() {
+  if ($(this).scrollTop() > 10) {
+    $("#anim").addClass("slideInUp");
+  } else {
+    $("#anim").removeClass("slideInUp");
+  }
+});

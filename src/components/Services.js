@@ -6,12 +6,12 @@ class Service extends Component {
     return (
       <React.Fragment>
         <section className="page-section" id="services">
-          <div className="container">
+          <div className="container animated" id="anim">
             <h2 className="text-center mt-0">Naše služby</h2>
             <p className="text-center mb-0">Ceník</p>
             <hr className="divider my-4" />
             <div className="row">
-            <Cenik />
+              <Cenik />
             </div>
           </div>
         </section>
