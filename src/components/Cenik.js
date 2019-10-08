@@ -4,7 +4,7 @@ class Cenik extends Component {
   render() {
     return (
       <React.Fragment>
-        <div className="container">
+        <div className="container" id="cenik">
           <nav>
             <ul
               className="nav nav-tabs justify-content-center"
@@ -103,7 +103,7 @@ class Cenik extends Component {
                 </a>
               </li>
             </ul>
-            <div className="tab-content mt-5" id="nav-tabContent">
+            <div className="tab-content p-md-5" id="nav-tabContent">
               <div
                 className="tab-pane fade show active"
                 id="nav-klasicka"

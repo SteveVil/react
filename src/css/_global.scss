@@ -38,18 +38,11 @@ hr.light {
 
 // Page section padding
 .page-section {
-  padding: 6rem 0;
-}
-
-//AboutUs
-
-#about .container-fluid {
-  margin: 0;
-  padding: 0;
+  padding: 3rem 0;
 }
 
 // Ceník
-
+#cenik {
 .c3 {
   color: $primary;
   font-weight: bold;
@@ -64,11 +57,32 @@ hr.light {
   color: black;
   border-color: white;
 }
+a.nav-link {
+  font-weight: bold;
+}
+}
 
 //services
 
 #services {
   .nav-tabs {
     text-align: center;
+  }
+}
+
+
+//Tips
+
+.fa-clipboard-check {
+  position: relative;
+  bottom: 30px ;
+  opacity: 0.3;
+  font-size: 60px;
+
+}
+
+@include media-breakpoint-up(lg) {
+  .page-section {
+    padding: 6rem 0;
   }
 }

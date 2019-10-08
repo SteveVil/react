@@ -24,18 +24,18 @@ class Menu extends Component {
               <ul className="navbar-nav text-uppercase ml-auto">
                 <li className="nav-item">
                   <a className="nav-link js-scroll-trigger" href="#about">
-                    About
+                    O Nás
                   </a>
                 </li>
                 <li className="nav-item">
                   <a className="nav-link js-scroll-trigger" href="#services">
-                    Services
+                    Ceník
                   </a>
                 </li>
 
                 <li className="nav-item">
                   <a className="nav-link js-scroll-trigger" href="#contact">
-                    Contact
+                    Kontakt
                   </a>
                 </li>
               </ul>

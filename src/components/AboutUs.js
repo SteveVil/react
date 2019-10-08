@@ -7,8 +7,8 @@ class AboutUs extends Component {
       <React.Fragment>
         <section className="page-section" id="about">
           <div className="container">
-            <div className="row no-gutters justify-content-center">
-              <div className="col-12 col-md-6 p-n3">
+            <div className="row justify-content-center">
+              <div className="col-12 col-md-6">
                 <div className="img-div">
                   <img
                     src={about_2}

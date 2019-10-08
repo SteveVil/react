@@ -8,17 +8,17 @@ class Masthead extends Component {
           <div className="container h-100">
             <div className="row h-100 align-items-center justify-content-center text-center">
               <div className="col-lg-10 align-self-end">
-                <h1 className="text-uppercase text-white display-3">
+                <h1 className="text-uppercase text-white display-4">
                   Relaxační masáže
                 </h1>
-                <hr className="divider my-4" />
+                
               </div>
               <div className="col-lg-8 align-self-baseline">
-                <p className="text-white mb-5">
+                <p className="text-white mb-3">
                   Uvolnění svalstva, potlačení stresu a napětí.
                 </p>
 
-                <button type="button" className="btn btn-primary">
+                <button type="button" className="btn btn-primary text-white">
                   Chci vědět více
                 </button>
               </div>

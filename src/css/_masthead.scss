@@ -1,6 +1,6 @@
 // Styling for the masthead
 header.masthead {
-  padding-top: 10rem;
+  padding-top: 12rem;
   padding-bottom: calc(10rem - #{$navbar-height});
   // replace the masthead.jpg image in the /img directory to change the image
   // if the image name change, make sure to update the url path below!
@@ -20,7 +20,7 @@ header.masthead {
   @include media-breakpoint-up(lg) {
     height: 100vh;
     min-height: 40rem;
-    padding-top: $navbar-height;
+   // padding-top: $navbar-height;
     padding-bottom: 0;
     p {
       font-size: 1.15rem;
@@ -39,7 +39,7 @@ header.masthead {
 .info-bar {
   background-color: rgba(192, 192, 192, 0.2) !important;
   text-align: left;
-  padding: 20px;
+  padding: 14px;
   color: white;
 
   span {

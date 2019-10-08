@@ -15,7 +15,7 @@ class Contact extends Component {
                   <div className="input-group">
                     <div className="input-group-prepend">
                       <span className="input-group-text">
-                        <i className="now-ui-icons users_circle-08" />
+                        <i className="fas fa-user"></i>
                       </span>
                     </div>
                     <input
@@ -30,7 +30,7 @@ class Contact extends Component {
                   <div className="input-group">
                     <div className="input-group-prepend">
                       <span className="input-group-text">
-                        <i className="now-ui-icons ui-1_email-85" />
+                        <i className="fas fa-envelope"></i>
                       </span>
                     </div>
                     <input
@@ -45,7 +45,7 @@ class Contact extends Component {
                   <div className="input-group">
                     <div className="input-group-prepend">
                       <span className="input-group-text">
-                        <i className="now-ui-icons tech_mobile" />
+                        <i className="fas fa-phone"></i>
                       </span>
                     </div>
                     <input
@@ -67,7 +67,7 @@ class Contact extends Component {
                   <div className="submit text-center">
                     <input
                       type="submit"
-                      className="btn btn-primary btn-raised"
+                      className="btn btn-primary btn-raised text-white"
                       value="Odeslat"
                     />
                   </div>
