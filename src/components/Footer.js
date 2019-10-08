@@ -21,7 +21,7 @@ class Footer extends Component {
                 </ul>
               </nav>
               <div className="copyright col-md-6 text-md-right" id="copyright">
-                © 2019, Designed by Small Bussines .
+                © 2019, Designed by Small Bussines .....
               </div>
             </div>
           </div>
