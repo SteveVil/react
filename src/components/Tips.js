@@ -11,6 +11,7 @@ class Tips extends Component {
           
           <div className="col-12 col-md-6 bg-primary p-4 text-white text-right ">
           <h2>Expert Tips</h2>
+          <i class="fas fa-clipboard-check"></i>
           </div>
           <div className="col-12 col-md-6 bg-light p-4">
 

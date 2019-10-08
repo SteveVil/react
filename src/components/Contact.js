@@ -12,10 +12,10 @@ class Contact extends Component {
               <div className="col-md-5 ml-auto mr-auto mt-5">
                 <form role="form" id="contact-form" method="post">
                   <label>Vaše Jméno</label>
-                  <div className="input-group">
+                  <div className="input-group mb-3">
                     <div className="input-group-prepend">
                       <span className="input-group-text">
-                        <i className="now-ui-icons users_circle-08" />
+                      <i class="fas fa-user"></i>
                       </span>
                     </div>
                     <input
@@ -27,10 +27,10 @@ class Contact extends Component {
                     />
                   </div>
                   <label>Váš Email</label>
-                  <div className="input-group">
+                  <div className="input-group  mb-3">
                     <div className="input-group-prepend">
                       <span className="input-group-text">
-                        <i className="now-ui-icons ui-1_email-85" />
+                      <i class="fas fa-envelope"></i>
                       </span>
                     </div>
                     <input
@@ -42,10 +42,10 @@ class Contact extends Component {
                     />
                   </div>
                   <label>Telefón</label>
-                  <div className="input-group">
+                  <div className="input-group  mb-3">
                     <div className="input-group-prepend">
                       <span className="input-group-text">
-                        <i className="now-ui-icons tech_mobile" />
+                      <i class="fas fa-phone"></i>
                       </span>
                     </div>
                     <input
@@ -77,7 +77,7 @@ class Contact extends Component {
               <div className="col-md-5 text-center text-md-left ml-auto mr-auto">
                 <div className="info info-horizontal mt-5">
                   <div className="icon icon-primary">
-                    <i className="now-ui-icons location_pin" />
+                    <i className="location_pin" />
                   </div>
                   <div className="description">
                     <h4 className="info-title">Adresa salónu</h4>
