@@ -15,14 +15,7 @@ class Masthead extends Component {
               </div>
               <div className="col-lg-8 align-self-baseline">
                 <p className="text-white mb-5">
-                  Uvolnění svalstva, potlačení stresu a napětí.</p>
-                <a
-                
-                  className="js-scroll-trigger vstupte"
-                  href="#about"
-                >
-                  Více <br></br>
-                  <i className="fas fa-angle-double-down"></i>
+                  Uvolnění svalstva, potlačení stresu a napětí.
                 </a>
                 
               </div>
