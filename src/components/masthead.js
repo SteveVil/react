@@ -15,39 +15,48 @@ class Masthead extends Component {
               </div>
               <div className="col-lg-8 align-self-baseline">
                 <p className="text-white mb-5">
-                  Uvolnění svalstva, potlačení stresu a napětí.</p>
-                <a
-                
-                  className="js-scroll-trigger vstupte"
-                  href="#about"
-                >
-                  Více <br></br>
-                  <i className="fas fa-angle-double-down"></i>
+                  Uvolnění svalstva, potlačení stresu a napětí.
+                </p>
+                <a className="js-scroll-trigger vstupte" href="#about">
+                  <button type="button" class="btn btn-primary text-white">
+                    Chci vědět více.
+                  </button>
                 </a>
-                
               </div>
               <div className="container info-bar d-none d-lg-block">
                 <div className="row">
                   <div className="col-4 d-flex">
                     <i className="far fa-clock align-self-start" />
                     <div className="align-self-start ml-2">
-                    <span className="d-block text-uppercase bold">Otevírací doba</span>
-                    <span className="no">8:00 - 19:00<br />
-                (Nutno předem objednat)</span>
+                      <span className="d-block text-uppercase bold">
+                        Otevírací doba
+                      </span>
+                      <span className="no">
+                        8:00 - 19:00
+                        <br />
+                        (Nutno předem objednat)
+                      </span>
                     </div>
                   </div>
                   <div className="col-4 d-flex">
                     <i className="fas fa-home align-self-start" />
                     <div className="align-self-start ml-2">
-                    <span className="d-block text-uppercase">Kde nás najdete</span>
-                    <span className="">Francouzská 11<br /> Plzeň - Slovany</span>
+                      <span className="d-block text-uppercase">
+                        Kde nás najdete
+                      </span>
+                      <span className="">
+                        Francouzská 11
+                        <br /> Plzeň - Slovany
+                      </span>
                     </div>
                   </div>
                   <div className="col-4 d-flex">
                     <i className="far fa-calendar align-self-start" />
                     <div className="align-self-start ml-2">
-                    <span className="d-block text-uppercase">Objednejte se</span>
-                    <span className="">666 666 777</span>
+                      <span className="d-block text-uppercase">
+                        Objednejte se
+                      </span>
+                      <span className="">666 666 777</span>
                     </div>
                   </div>
                 </div>
@@ -61,4 +70,3 @@ class Masthead extends Component {
 }
 
 export default Masthead;
-
