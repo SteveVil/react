@@ -24,16 +24,26 @@ class Masthead extends Component {
                   <div className="col-4 d-flex">
                     <i className="far fa-clock align-self-start" />
                     <div className="align-self-start ml-2">
-                    <span className="d-block text-uppercase bold">Otevírací doba</span>
-                    <span className="no">8:00 - 19:00<br />
-                (Nutno předem objednat)</span>
+                      <span className="d-block text-uppercase bold">
+                        Otevírací doba
+                      </span>
+                      <span className="no">
+                        8:00 - 19:00
+                        <br />
+                        (Nutno předem objednat)
+                      </span>
                     </div>
                   </div>
                   <div className="col-4 d-flex">
                     <i className="fas fa-home align-self-start" />
                     <div className="align-self-start ml-2">
-                    <span className="d-block text-uppercase">Kde nás najdete</span>
-                    <span className="">Francouzská 11<br /> Plzeň - Slovany</span>
+                      <span className="d-block text-uppercase">
+                        Kde nás najdete
+                      </span>
+                      <span className="">
+                        Francouzská 11
+                        <br /> Plzeň - Slovany
+                      </span>
                     </div>
                   </div>
                   <div className="col-4 d-flex">
@@ -54,4 +64,3 @@ class Masthead extends Component {
 }
 
 export default Masthead;
-
