@@ -16,6 +16,7 @@ class Masthead extends Component {
               <div className="col-lg-8 align-self-baseline">
                 <p className="text-white mb-5">
                   Uvolnění svalstva, potlačení stresu a napětí.
+                  <button type="button" class="btn btn-primary text-white">
                 </a>
                 
               </div>
