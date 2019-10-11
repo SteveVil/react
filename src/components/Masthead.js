@@ -16,7 +16,11 @@ class Masthead extends Component {
               <div className="col-lg-8 align-self-baseline">
                 <p className="text-white mb-5">
                   Uvolnění svalstva, potlačení stresu a napětí.
+                </p>
+                <a className="js-scroll-trigger vstupte" href="#about">
                   <button type="button" class="btn btn-primary text-white">
+                    Chci vědět více.
+                  </button>
                 </a>
               </div>
               <div className="container info-bar d-none d-lg-block">
@@ -49,8 +53,10 @@ class Masthead extends Component {
                   <div className="col-4 d-flex">
                     <i className="far fa-calendar align-self-start" />
                     <div className="align-self-start ml-2">
-                    <span className="d-block text-uppercase">Objednejte se</span>
-                    <span className="">666 666 777</span>
+                      <span className="d-block text-uppercase">
+                        Objednejte se
+                      </span>
+                      <span className="">666 666 777</span>
                     </div>
                   </div>
                 </div>
