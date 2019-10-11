@@ -18,7 +18,6 @@ class Masthead extends Component {
                   Uvolnění svalstva, potlačení stresu a napětí.
                   <button type="button" class="btn btn-primary text-white">
                 </a>
-                
               </div>
               <div className="container info-bar d-none d-lg-block">
                 <div className="row">
