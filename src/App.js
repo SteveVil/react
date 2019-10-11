@@ -13,7 +13,6 @@ class App extends Component {
     return (
       <React.Fragment>
         <Menu />
-
         <Masthead />
         <AboutUs />
         <Services />
