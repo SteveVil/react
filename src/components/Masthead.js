@@ -18,7 +18,7 @@ class Masthead extends Component {
                   Uvolnění svalstva, potlačení stresu a napětí.
                 </p>
                 <a className="js-scroll-trigger vstupte" href="#about">
-                  <button type="button" class="btn btn-primary text-white">
+                  <button type="button" className="btn btn-primary text-white">
                     Chci vědět více.
                   </button>
                 </a>
